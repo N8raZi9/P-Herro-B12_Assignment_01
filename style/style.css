@@ -116,3 +116,45 @@ body {
     background-color:rgb(188, 188, 25);
     color: black;  
 }
+
+            /* Productive Users Section */
+
+.productive {
+    background-color: #e6e6fa; 
+    text-align: center;
+    padding: 20px 20px;
+    margin-top: 30px;
+    border-radius: 10px; 
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.productive h1 {
+    font-size: 40px;;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.stats{
+    display: flex;
+    justify-content: space-around;
+}
+
+.stat-item {
+    margin: 10px;
+    color: #5a38e8; 
+}
+
+.stat-item h3 {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+.stat-item p {
+    font-size: 1.1em;
+    color: #666;
+}
+
