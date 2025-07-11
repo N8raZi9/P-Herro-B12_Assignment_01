@@ -158,3 +158,105 @@ body {
     color: #666;
 }
 
+         /* What our users say*/
+
+
+.card-Titel{
+    font-size: xx-large;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 5px;
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
+.card-section{
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+    padding: 40px 10px;
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 10px; 
+    margin-top: 5px;
+
+    
+}
+
+.card-section h1{
+    margin-bottom: 50px;
+    font-size: 2.5em;
+    color: #222;
+}
+
+
+.card{
+    background-color: white;
+    border: 1.5px solid #fedd7c;
+    border-radius: 20px;
+    padding: 30px 16px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
+    width: calc(33.333% - 20px);
+    min-width: 280px;
+    box-sizing: border-box;
+    text-align: left;
+    
+}
+
+.card:hover {
+    background-color: rgb(239, 225, 206);
+}
+
+.star {
+    display: flex;
+    gap: 5px;
+    margin-bottom: 15px;
+}
+
+.star img {
+    width: 20px;
+    height: 20px;
+}
+
+.card h2 {
+    margin-bottom: 10px;
+    color: #222;
+    font-size: 1.25em;
+    font-weight: 600;
+}
+
+.card p {
+    color: #444;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    font-size: 0.95em;
+}
+
+.reviewer {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 0.95em;
+}
+
+.reviewer img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.reviewer-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.reviewer-info .name {
+    font-weight: 600;
+    color: #333;
+}
+
+.reviewer-info .date {
+    opacity: 0.5;
+    font-size: 0.9em;
+}
