@@ -260,3 +260,122 @@ body {
     opacity: 0.5;
     font-size: 0.9em;
 }
+           /* Ready to focus better */
+.focus-section {
+    background-color: #e6e6fa; 
+    height: 670px;
+    width: 1140px;
+    padding: 20px 20px;
+    margin-top: 40px;
+    margin-bottom: 45px;
+    border-radius: 10px; 
+    max-width: 1200px;
+    color: black;    
+    display:contents;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.focus-section h2 {
+    font-size: 2.5em;
+    margin-bottom: 15px;
+}
+
+.focus-section p {
+    font-size: 1.1em;
+    margin-bottom: 30px;
+    color: black;
+    opacity: 0.5;
+}
+
+.focus-section img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0);
+
+}
+.btn-focus{
+ background-color: #5a38e8;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 8px;
+    font-size: 0.8em;
+    margin-bottom: 10px;
+}
+.btn-focus:hover{
+    background-color:rgb(188, 188, 25);
+    color: black;  
+}
+
+            /* Let’s Get In Touch Section  */
+
+.contact-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 80px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 50px; 
+}
+
+.contact-section h2 {
+    font-size: 120px;
+    height: 232px;
+    width: 528px;
+    align-content: flex-start;
+    margin-top: 0px;
+    
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: left;
+    height: 490px;
+    width: 497px;
+    align-content: flex-end;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 600;
+    color: #555;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 1em;
+    box-sizing: border-box; 
+}
+
+.form-group textarea {
+    resize: vertical;
+}
+
+.submit-btn {
+    background-color: #5a38e8; 
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.1em;
+    cursor: pointer;
+    margin-top: 20px;
+}
+.submit-btn:hover{
+    background-color:rgb(188, 188, 25);
+    color: black; 
+}
