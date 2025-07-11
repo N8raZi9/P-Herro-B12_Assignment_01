@@ -379,3 +379,52 @@ body {
     background-color:rgb(188, 188, 25);
     color: black; 
 }
+
+ /* Footer Section */
+
+footer {
+    background-color: #f8f8fa; 
+    padding: 50px 20px;
+    text-align: center;
+    color: #666;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    align-content: center;
+}
+
+.footer-logo img {
+    
+    height: 150px;
+    size: 90px;
+    margin-bottom: 5px;
+    margin-left: 45%;
+    margin-right: 45%;
+    
+    
+    
+}
+
+footer p {
+    max-width: 600px;
+    margin: 0 auto 30px auto;
+    line-height: 1.6;
+}
+
+.footer-nav {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    padding: 0;
+}
+
+
+.footer-nav a {
+    text-decoration: none;
+    color: #555;
+    font-weight: 500;
+}
+.footer-nav a:hover{
+    color:blue;
+}
